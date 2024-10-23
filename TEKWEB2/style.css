@@ -1,0 +1,41 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #C8E7FF;
+    padding: 20px;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: solid #98979C;
+  }
+  
+  .kotak {
+      background-color: #a8d0f1;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 20px;
+      transition: background-color 0.3s;
+  }
+  
+  .kotak h1 {
+      color: rgb(91, 147, 193);
+  }
+  
+  .kotak ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .kotak ul li {
+      background-color: rgb(224, 239, 243);
+      padding: 10px;
+      margin-bottom: 10px;
+      border-left: 5px solid #608ec0;
+      border-radius: 10px;
+  }
